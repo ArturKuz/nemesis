@@ -1,0 +1,19 @@
+.page-wrapper{
+    max-width: 2039px ;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+}
+
+.flex {
+    display: flex;
+}
+
+.is_block{
+    display: block;
+}

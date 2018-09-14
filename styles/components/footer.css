@@ -1,0 +1,132 @@
+/*FOOTER*/
+.all-collection {
+    grid-template-columns: auto 35% auto ;
+    grid-template-rows: repeat(4, 114px);
+}
+.all-collection__item{
+
+    grid-row: 2 / span 2 ;
+    grid-column: 2  ;
+}
+
+/*footer*/
+.footer-nav{
+    grid-template-columns: 32.5%  55% 12.5%; ;
+    grid-template-rows: repeat(3, 73px);
+}
+.footer-logo{
+    grid-row: 2 ;
+    grid-column: 1  ;
+}
+.footer-menu{
+    grid-row: 2 ;
+    grid-column: 2 / span 2  ;
+}
+.footer-info{
+    grid-template-columns: 13.5% 1fr 1fr 13.5% ;
+    grid-template-rows: repeat(3, 50px);
+}
+.footer-text{
+    grid-row: 2 ;
+    grid-column: 2  ;
+}
+.footer-social{
+    grid-row: 2 ;
+    grid-column: 3  ;
+}
+
+
+/*decor*/
+.all-collection__item{
+    background: #f0f0f0;
+    font: bold 36px/60px Raleway;
+    color: #000;
+    align-self: center;
+    justify-self: center;
+    padding: 12% 16%;
+}
+.line-underline {
+    text-decoration-line: underline;
+}
+
+.footer-nav{
+    background: #f0f0f0;
+}
+.footer-logo{
+    align-self: center;
+    padding-left: 44%;
+}
+
+.footer-menu__link{
+    position: relative;
+    width: 20%;
+    display: inline-block;
+    margin: 12px 5px 0 5px;
+    text-decoration-line: none;
+    font:bold 18px/60px Raleway ;
+    color: #000;
+}
+
+
+.footer-menu__link:after{
+    content: "";
+    background: rgba(0, 0, 0, .3);
+    top: 45%;
+    left: 33%;
+    position: absolute;
+    width: 55%;
+    height: 4px;
+}
+.link_active:hover{
+    text-decoration-line: none;
+    color: #5d257c;
+}
+
+.footer-text{
+    align-self: center;
+    padding-left: .7em;
+}
+.footer-text_decor{
+    font: 18px/60px Raleway ;
+    color: rgba(0, 0, 0, .3);
+}
+.footer-social{
+    align-self: center;
+    justify-self: right;
+    font-size: 130%;
+}
+.footer-social__link:hover .footer-social__icon {
+    color:  #5d257c;
+}
+.footer-social__icon{
+
+    margin-left: .75em;
+    color: rgba(0, 0, 0, .3);
+    font-size: 1.55em;
+}
+
+.logo{
+    justify-self: center;
+    align-self: center;
+}
+.logo__link{
+    background: url("../../img/logo/Logo.png") no-repeat ;
+    background-size: cover;
+    width: 180px;
+    height: 50px;
+}
+.btn-top{
+    width: 100px;
+    border: 1px solid #ccc;
+    background: #5d257c;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    top: 50px;
+    left: 80px;
+    cursor: pointer;
+    display: none;
+    color: #dedede;
+    font-family: 'Raleway' ;
+    font-size: 120%;
+}

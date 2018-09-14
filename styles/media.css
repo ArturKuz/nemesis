@@ -1,0 +1,380 @@
+@media only screen and (min-width: 1600px)and (max-width: 2040px){
+    .outfit{
+        background: #f0f0f0;}
+
+
+}
+@media only screen and (min-width: 1324px)and (max-width: 1600px){
+    .menu-wrapper {
+        grid-template-columns: 1fr 1fr 1fr 1fr;}
+    .menu-box__edge_left {
+        display: none; }
+    .menu-box__edge_right {
+        display: none;}
+    .photo-box {
+        background-size: cover;}
+
+    .outfit{
+        background: #f0f0f0;
+    }
+    .fashion-brand__image-text {
+        display: none;
+    }
+    .section-about__text {
+        background-color: transparent;}
+    .content-slides {
+        background: #f0f0f0}
+    .reader-text__caption_purple {
+        font-size: 400%;}
+    .content-button_white {
+        font-size: 80%;}
+    .section-about__container {
+        width: 100%;
+        background-color: #3a174d;}
+    .footer-menu__link:after {
+        background: transparent;
+        width: 0;}
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1324px){
+    .menu-wrapper {
+        grid-template-columns: 1fr 1fr 1fr 1fr;}
+    .menu-box__edge_left {
+        display: none; }
+    .menu-box__edge_right {
+        display: none;}
+    .photo-box {
+        background-size: cover;}
+    .content {
+        grid-template-columns: 5% 50% 45%;
+        grid-template-rows: 302px 300px 302px;
+
+        grid-template-areas:
+                " storehouse storehouse join-us"
+                " nav slider nike"
+                " nav slider nike";
+    }
+    .content-black-wear {
+        display: none;
+    }
+    .content-reader {
+        display: none;
+    }
+
+
+    .fashion-brand__image-text {
+        display: none;
+    }
+
+    .fashion-brand__text-hover {
+        display: none;
+    }
+    .fashion-brand__image {
+        width: 100%; }
+    .outfit{
+        display: none;
+    }
+    .fashion-brand__image {
+        float: none;
+    }
+    .section-about__text {
+        background-color: transparent;
+        margin-left: 60%;}
+    .reader-text__caption_purple {
+        font-size: 300%;}
+    .content-button_white {
+        font-size: 80%;}
+    .section-about__container {
+        width: 100%;
+        background-color: transparent;}
+
+
+    .gallery{
+        display: none;
+    }
+    .readers{
+        width: 50%;
+    }
+    .clothes{
+        width: 50%;
+    }
+    .footer-menu__link:after {
+        background: transparent;
+        width: 0;}
+
+}
+@media only screen and (min-width: 680px) and (max-width: 980px){
+    .menu-wrapper {
+        grid-template-columns: 1fr 1fr ;}
+    .menu-box__edge_left {
+        display: none; }
+    .menu-box__edge_right {
+        display: none;}
+    .photo-box {
+        background-size: cover;}
+    .content {
+        grid-template-columns: 100%;
+        grid-template-rows: 302px  302px;
+
+        grid-template-areas:
+                " storehouse "
+                " join-us "
+
+    }
+    .join-us{
+        display: none;
+    }
+    .content-slides{
+        display: none;
+    }
+    .content-black-wear {
+        display: none;
+    }
+    .content-reader {
+        display: none;
+    }
+    .content-nav {display: none;}
+    .content-nike {display: none;}
+    .fashion-brand__count-white{display: none;}
+    .fashion-brand__text-container, .fashion-brand__image-container{
+        width: 100%;}
+    .fashion-brand__button-checkmore {
+        color: #fff;}
+    .fashion-brand__text{
+        margin-top: 5px;
+    }
+    .fashion-brand__image-text {
+        display: none;
+    }
+    .fashion-brand__text-hover {
+        display: none;
+    }
+    .fashion-brand {display: block}
+
+    .fashion-brand__text-hover {
+        display: none;
+    }
+    .outfit{
+        display: none;
+    }
+    .fashion-brand__image {
+        float: none;
+        width: 100%
+    }
+
+    .section-about__text {
+        background-color: transparent;
+        margin-left: 60%;}
+    .reader-text__caption_purple {
+        font-size: 300%;}
+    .content-button_white {
+        font-size: 80%;}
+    .section-about__container {
+        width: 100%;
+        background-color: transparent;}
+    .content-nike__button_purple {
+        display: none;
+    }
+    .content-nike__caption {
+        display: none;
+    }
+    .fashion-brand {
+        width: 100%
+    }
+    .gallery{
+        display: none;
+    }
+    .readers{
+        width: 50%;
+    }
+    .clothes{
+        width: 50%;
+    }
+    .footer-nav {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(2, 73px);
+        align-self: center;
+        justify-self: center;
+    }
+    .footer-logo {
+        grid-row: 2 ;
+        grid-column: 1 ;
+    }
+
+    .footer-menu__link{
+        display: none;
+    }
+
+    .footer-menu__link:after {
+        background: transparent;
+        width: 0;}
+
+    .footer-logo{
+        align-self: center;
+        justify-self: center;
+        padding-left: 0;
+    }
+    .readers{
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .clothes{
+        display: none;
+    }
+    .all-collection__item {
+        grid-row: 2 / span 2;
+        grid-column: 1 / span 4;
+    }
+}
+@media only screen and (max-width: 680px){
+
+    .section-about__container {
+
+        background-position: center;}
+
+    .menu-wrapper {
+        grid-template-columns: 1fr ;}
+    .menu-box__edge_left {
+        display: none; }
+    .menu-box__edge_right {
+        display: none;}
+    .photo-box {
+        background-size: cover;}
+    .content {
+        grid-template-columns: 100%;
+        grid-template-rows: 302px  302px;
+
+        grid-template-areas:
+                " storehouse "
+                " join-us "
+
+    }
+    .join-us{
+        display: none;
+    }
+    .content-slides{
+        display: none;
+    }
+    .content-black-wear {
+        display: none;
+    }
+    .content-reader {
+        display: none;
+    }
+    .content-nav {display: none;}
+    .content-nike {display: none;}
+    .fashion-brand__count-white{display: none;}
+    .fashion-brand__text-container, .fashion-brand__image-container{
+        width: 100%;}
+    .fashion-brand__button-checkmore {
+        color: #fff;}
+    .fashion-brand__text{
+        margin-top: 5px;
+    }
+    .fashion-brand__image-text {
+        display: none;
+    }
+    .fashion-brand__text-hover {
+        display: none;
+    }
+    .fashion-brand {display: block}
+
+    .fashion-brand__text-hover {
+        display: none;
+    }
+    .outfit{
+        display: none;
+    }
+    .fashion-brand__image {
+        float: none;
+        width: 100%
+    }
+
+
+    .section-about__text {
+        background-color: transparent;
+
+        margin: 0 auto;}
+    .reader-text__caption_purple {
+        font-size: 300%;}
+    .content-button_white {
+        font-size: 80%;}
+    .section-about__container {
+        width: 100%;
+        background-color: transparent;}
+    .content-nike__button_purple {
+        display: none;
+    }
+    .content-nike__caption {
+        display: none;
+    }
+    .fashion-brand {
+        width: 100%
+    }
+    .gallery{
+        display: none;
+    }
+    .readers{
+        width: 50%;
+    }
+    .clothes{
+        width: 50%;
+    }
+    .footer-nav {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(2, 73px);
+        align-self: center;
+        justify-self: center;
+    }
+    .footer-logo {
+        grid-row: 2 ;
+        grid-column: 1 ;
+    }
+
+    .footer-menu__link{
+        display: none;
+    }
+
+    .footer-menu__link:after {
+        background: transparent;
+        width: 0;}
+
+    .footer-logo{
+        align-self: center;
+        justify-self: center;
+        padding-left: 0;
+    }
+    .readers{
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .clothes{
+        display: none;
+    }
+    .all-collection__item {
+        grid-row: 2 / span 2;
+        grid-column: 1 / span 4;
+    }
+    .footer-info {
+        grid-template-columns:  1fr auto 1fr;
+        grid-template-rows: repeat(3, 50px);
+    }
+    .footer-text_decor {
+        display: none;
+    }
+    .footer-social {
+        align-self: center;
+        justify-self: left;
+        font-size: 130%;
+    }
+    .footer-social {
+        grid-row: 2;
+        grid-column: 2;
+    }
+    .all-collection {
+        grid-template-columns: auto 35% auto;
+        grid-template-rows: repeat(1, 114px);
+    }
+}

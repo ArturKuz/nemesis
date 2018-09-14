@@ -1,0 +1,481 @@
+.section-inspiration{
+    width: 100%;
+    display: flex
+}
+.fashion-brand{
+    width: 78%;
+    height: 858px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-around;
+}
+.fashion-brand__image-container{
+    width: 62%;
+    position: relative;
+}
+.fashion-brand__image{
+    width: 71%;
+    height: 475px;
+    background: url(../../../img/collection/girl.png);
+    float: right;
+    margin-top: 90px;
+    position: relative;
+
+
+}
+.fashion-brand__count-white{
+    position: absolute;
+    bottom: -20%;
+    right: 0;
+    font-size: 200px;
+    color: #dedede;
+    font-family:'Raleway';
+
+
+
+}
+
+.fashion-brand__count-white:hover{
+    color: #f0f0f0;;
+}
+
+.fashion-brand__image-text{
+    width: 66%;
+    height: 533px;
+    position: absolute;
+    bottom:0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: #f0f0f0;
+
+}
+
+.fashion-brand__image-text:hover{
+
+    background: none;
+
+}
+
+
+.playfairdisplay-text{
+
+    font-size: 25px;
+    font-family: "PlayfairDisplay-Italic";
+    font-style: italic;
+    line-height: 1.25;
+    color: #c0c0c0;
+
+}
+
+
+.raleway-text{
+    font-size: 48px;
+    font-family: "Raleway";
+    font-weight: bold;
+    line-height: 1.25;
+
+
+}
+.fashion-brand__text-container{
+    width: 38%;
+}
+.fashion-brand__text{
+    margin-left: 3%;
+    float: left;
+    margin-top: 145px;
+    margin-right:3%;
+}
+.fashion-brand__event-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.fashion-brand__events{
+
+    font-size: 35px;
+    font-family: "PlayfairDisplay-BoldItalic";
+    line-height: 1.707;
+    display: inline-block;
+    float: left;
+    color: #8f69a5;
+
+}
+.fashion-brand__date{
+    margin-right:5%;
+}
+.fashion-brand__datepicker{
+
+    font-size: 35px;
+    font-family: "PlayfairDisplay";
+
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.707;
+    display: inline-block;
+    float: right;
+    color: #d2d2d2;
+    border: 0px;
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+}
+
+
+
+.fashion-brand__maintext{
+    font-size: 30px;
+    font-family: "Raleway";
+    font-weight: bold;
+    line-height: 1.333;
+    margin: 47px 0px 47px 0px;
+    position: relative;
+
+}
+.fashion-brand__maintext:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -30%;
+    width: 110px;
+
+    height: 4px;
+    background: black;
+}
+.fashion-brand__subtext{
+
+    font-size: 16px;
+    font-family: "PlayfairDisplay";
+    line-height: 2.25;
+    color: #999999;
+    margin-top: 55px;
+    margin-bottom: 50px;
+}
+
+.fashion-brand__button-checkmore{
+    width: 178px;
+    height: 53px;
+    border: 3px solid #d0d0d0;
+    text-decoration: none;
+    color: black;
+    padding: 15px 30px 15px 30px;
+    font-size: 16px;
+    font-family: "Raleway";
+    font-weight: bold;
+    text-transform: uppercase;
+
+
+}
+.fashion-brand__button-checkmore:hover{
+    color: black;
+    text-decoration:none;}
+
+.fashion-brand__text-hover{
+    width: 37%;
+    height: 300px;
+    position: absolute;
+    bottom:0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: #f0f0f0;
+
+}
+.fashion-brand__text-hover:hover{
+    background: none;
+}
+.fashion-brand__playfairdisplay-text{
+
+    font-size: 25px;
+    font-family: "PlayfairDisplay-Italic";
+    font-style: italic;
+    line-height: 1.25;
+    color: #c0c0c0;
+
+}
+.margin-bottom{
+    margin-bottom: 115px;}
+
+.fashion-brand__raleway-text{
+
+    font-size: 48px;
+    font-family: "Raleway";
+    font-weight: bold;
+    line-height: 1.25;
+
+}
+.outfit{
+    width: 22%;
+    height: 858px;
+
+    display: flex;
+    flex-direction: row;
+
+}
+.section-suit{
+    width: 100%;
+    display: flex;
+}
+.readers{
+    width: 32%;
+    height: 854px;
+    background: url(../../../img/collection/man.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.white{
+    color: white;
+}
+.clothes{
+    width: 53%;
+    height: 854px;
+    background: url(../../../img/collection/suit.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+.clothes__icons{
+    position: relative;
+}
+.clothes__text{
+
+    margin-left:5%;
+    font-size: 73px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 2.032;
+
+}
+.gallery{
+    width: 15%;
+    height: 854px;
+    background: url(../../../img/collection/gallery.png);
+    position: relative;
+
+}
+.gallery__text{
+    font-size: 36px;
+    font-family: "Raleway";
+    font-weight: bold;
+    line-height: 1.25;
+    color: white;
+
+}
+.transform{
+    transform: rotate(90deg) scale(2,2) translateX(210px);
+
+}
+
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: -20px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    display: none;
+    pointer-events: none; }
+.modalDialog:target {
+    display: block;
+    pointer-events: auto; }
+
+.modal-style {
+    width: 40%;
+    position: relative;
+    margin: 10% auto;
+    padding: 2% 5%;
+    border-radius: 10px;
+    background: transparent;
+}
+
+.close {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+.close:hover {
+    background: #00d9ff;
+}
+
+
+.absolute {
+    position: absolute;
+
+}
+.carousel-control-nextt-icon{
+    background-image: url(../../../img/collection/icon-next.png);
+}
+
+.carousel-control-nextt-icon{
+    position: absolute;
+    right: 0;
+    top:0;
+    width: 145px;
+    height: 150px;
+}
+.carousel-control-nextt{
+    top:0;
+    right:0;
+    position: absolute;
+}
+.carousel-control-previ {
+    right: 0 !important;
+    top: -300px;
+}
+
+.carousel-control-previ{
+    position:absolute;
+    top:0;
+    bottom:0;
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-align:center;
+    align-items:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    width:15%;
+    color:#fff;
+    text-align:center;
+    opacity:.5}
+
+.carousel-control-next:focus,.carousel-control-next:hover,.carousel-control-previ:focus,.carousel-control-previ:hover{
+    color:#fff;
+    text-decoration:none;
+    outline:0;
+    opacity:.9}
+.carousel-control-previ{
+    right:0;
+    top:0}
+
+
+
+.carousel-control-previ-icon{
+    display:inline-block;
+
+    background:transparent no-repeat center center;
+    background-size:100% 100%;
+    position: absolute;
+    right: 0;
+    top:150px;
+    width: 145px;
+    height: 150px;
+    background-image: url(../../../img/collection/icon-previous.png); }
+
+
+
+.readers__li-menu_left {
+    width: 100%;
+}
+.readers__li {
+    display: inline-block;
+    position: relative;
+    height: 65px;
+    box-sizing: border-box; }
+
+.readers__li:hover {
+    background: #f8f3f0;
+    border-bottom: 2px solid #3a174d; }
+
+.readers__navigation-button {
+
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s; }
+.readers__navigation-button:hover{
+    text-decoration: none;
+    color: #3a174d;
+}
+.readers__sub-menu {
+    display: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    top: 65px;
+    left: 0px;
+    background: #ffffff; }
+
+.readers__sub-menu-li {
+    display: block;
+    float: none;
+    background: none;
+    margin: 0;
+    padding: 0; }
+
+.readers__submenu-button {
+    font-size: 12px;
+    font-weight: normal;
+    font-family: "OpenSans", sans-serif;
+    display: block;
+    color: #8e8071;
+    background: #ffffff;
+    padding: 16px;
+    text-align: left;
+    text-transform: uppercase; }
+.section-myprofile__submenu-button:hover {
+    background: #f8f3f0;
+    text-decoration: none;
+    border-left: 2px solid #3a174d; }
+
+.readers__li:hover > .readers__sub-menu {
+    display: block; }
+
+
+
+/*@media only screen and (min-width: 480px) and (max-width: 1024px){*/
+    /*.outfit{*/
+        /*display: none;*/
+    /*}*/
+    /*.fashion-brand {*/
+        /*width: 100%*/
+    /*}*/
+    /*.gallery{*/
+        /*display: none;*/
+    /*}*/
+    /*.readers{*/
+        /*width: 50%;*/
+    /*}*/
+    /*.clothes{*/
+        /*width: 50%;*/
+    /*}*/
+/*}*/
+
+/*@media only screen and (max-width: 2038px){*/
+    /*.outfit{*/
+        /*background: #f0f0f0;*/
+        /*overflow: hidden;*/
+        /*width: 21%;*/
+    /*}*/
+    /*.absolute{*/
+        /*display: none;*/
+    /*}*/
+/*}*/

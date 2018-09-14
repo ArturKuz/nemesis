@@ -1,0 +1,214 @@
+/* HEADER */
+
+.section-wrapper {
+    grid-template: minmax(auto,230px) / 21% minmax(auto,59%) 20%;
+    }
+.seaction-header__navigation  {
+    justify-self: right;
+    align-self: center;
+    padding-right: 26%;
+    }
+.seaction-header-burger__item {
+    color: #5d257c;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.seaction-header-menu__dropdown {
+    display: none;
+    position: absolute;
+    /*top: 220px;*/
+    /*left: 0;*/
+    background: #ffffff;
+    /*width: 30vw;*/
+    text-align: center;
+    list-style: none;
+    }
+.seaction-header-menu__dropdown-item {
+    display: block;
+    font-size: 24px;
+    color: #5d257c;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    padding: 20px;
+    }
+.seaction-header-menu__dropdown-item:hover {
+    text-decoration-line: none;
+    color: #ffffff;
+    background-color: #5d257c;
+    }
+.seaction-header-logo {
+    justify-self: center;
+    align-self: center;
+   }
+.seaction-header-logo__img {
+    background: url("../../img/logo/Logo.png") no-repeat ;
+    background-size: cover;
+    width: 180px;
+    height: 50px;
+    }
+
+.seaction-header-search__img {
+    color: #5d257c;
+    font-size: 1.5rem;
+    }
+
+.seaction-header-search {
+    justify-self: left;
+    align-self: center;
+    padding-left: 28%;
+    }
+.seaction-header__form {
+     position: absolute;
+     display: none;
+     height: 84px;
+     box-sizing: border-box;
+     font-size: 16px;
+    }
+.seaction-header__input-submit {
+
+    border: none;
+    background: #5d257c;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    padding: 15px;
+    }
+.seaction-input__search {
+    height: 62%;
+    width: 60%;
+    padding: 0 5px;
+    border: 2px solid #5d257c;
+
+    }
+
+/* SECOND BLOCK */
+.section-about {
+    height: 891px;
+    background-color: #5d257c;
+}
+
+.section-about__container {
+    width: 86.4%;
+    height: 100%;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    background-image: url("../../img/header/header.png");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.section-about__text {
+    background-color:  #5d257c;
+    margin-left: 17%;
+    width: 40%;
+    padding: 3% 3% 4% 3%;
+    box-sizing: border-box;
+}
+.section-about-box__main-text {
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 4%;
+    border-bottom: 1px solid #9f61c1;
+}
+
+.section-about-box__submain-text {
+    font-size: 48px;
+    line-height: 60px;
+    padding-top: 7%;
+}
+
+.section-about-box__footer-btn {
+    display: inline-block;
+    border: 4px solid #772f9f;
+    background-color: #5d257c;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 1% 5%;
+    text-decoration: none;
+    margin-top: 8%;
+    text-transform: uppercase;
+
+}
+
+.section-about-box_massage-decor {
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.section-about-box__footer-btn:hover {
+
+    text-decoration-line: none;
+    transform: scale(1.2);
+    color: #fff;
+}
+/*Modal*/
+.modal-wrapper {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(34, 145, 185, 0.63);
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    z-index: 1;
+}
+
+.open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal {
+    width: 585px;
+    height: 400px;
+    display: block;
+    margin: 50% 0 0 -300px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.modal {
+    margin-top: -200px;
+    opacity: 1;
+}
+
+.modal-head {
+    width: 100%;
+    height: 50px;
+    padding: 12px 30px;
+    overflow: hidden;
+    background: #5d257c;;
+}
+
+.btn-close {
+    font-size: 28px;
+    display: block;
+    float: right;
+    color: #fff;
+}
+
+.modal-head-content {
+    padding: 10%;
+}
+
+.modal-content__main {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #5d257c;
+}
+.modal-content__main .fa-thumbs-up {
+    font-size: 60px;
+}
+.modal-content__main-text {
+    font-size: 45px;
+}

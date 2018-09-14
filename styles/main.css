@@ -1,0 +1,22 @@
+@import url(vendor/reset-css/reset.css);
+
+@import url(common/common.css);
+@import url(components/fonts.css);
+
+/*Alina*/
+@import url(components/header.css);
+
+/*Anastasia*/
+@import url(components/news.css);
+
+/*Anton*/
+@import url(components/content.css);
+
+/*Katerina*/
+@import url(components/collection/collection.css);
+
+/*Artur*/
+@import url(components/footer.css);
+
+/*media*/
+@import url(media.css);

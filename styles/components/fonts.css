@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url(../../fonts/Raleway-Bold.ttf) format("truetype");
+    font-weight: bold;
+    font-style: normal; }
+
+@font-face {
+    font-family: 'PlayfairDisplay';
+    src: url(../../fonts/PlayfairDisplay-Regular.ttf) format("truetype");
+    font-style: normal; }
+
+@font-face {
+    font-family: "Playfair Display Regular";
+    src: url(../../fonts/PlayfairDisplay-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Raleway-Regular";
+    src: url('../../fonts/Raleway-Regular.otf');
+}
+@font-face {
+    font-family: "Raleway-Bold";
+    src: url('../../fonts/Raleway-Bold.ttf');
+}
+@font-face {
+    font-family: 'PlayfairDisplay-Italic';
+    src: url(../../fonts/PlayfairDisplay-Italic.ttf) format("truetype");
+    font-style: italic;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "playfairdisplay-bold";
+    src: url('../../fonts/playfairdisplay-bold.otf');
+}
+@font-face {
+    font-family: 'PlayfairDisplay-BoldItalic';
+    src: url(../../fonts/PlayfairDisplay-BoldItalic.ttf) format("truetype");
+    font-weight: bold;
+    font-style: italic;
+    font-style: normal; }
+@font-face {
+    font-family: 'PlayfairDisplay-BlackItalic';
+    src: url(../../fonts/PlayfairDisplay-BlackItalic.otf) format("truetype");
+    font-weight: bold;
+    font-style: italic;
+    font-style: normal; }
+
+
+
+
+
+
+
+
+
+
+
